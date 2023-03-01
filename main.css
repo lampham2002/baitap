@@ -1,0 +1,163 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+html{
+    font-family: Arial, Helvetica, sans-serif ;
+}
+#main{
+
+}
+#header{
+    
+    position: fixed;
+    height: 46px;
+    background-color: black;
+    top: 0;
+    left: 0;
+    right: 0;
+    
+}
+#nav{ display: inline-block;}
+
+#nav li{
+    display: inline-block;
+  
+} #nav li a{
+    color: aliceblue;
+    text-decoration: none;
+   line-height: 46px;
+   padding: 0 24px;
+   display: inline-block;
+   
+}
+#nav li:hover a{
+    color: black;
+    background-color: aliceblue;
+
+}
+#nav .subnav{
+    display: none;
+
+}
+#slider{ 
+    margin-top: 46px; 
+    padding-top:50%;
+    background: url(chicago.jpg) top center / cover no-repeat;
+    
+    
+}
+#slider .text-content{
+    
+    color: aliceblue;
+    left: 50%;
+    bottom: 20%;
+    text-align: center;
+
+}
+#slider .text-heading{ }
+#slider .text-description{
+    font-size: 15px;
+    margin-top: 25px;
+}
+#content{}
+#content .content-section{
+width: 800px;
+padding: 64px 0;
+margin-left: auto;
+margin-right: auto;
+
+}
+.section-heading{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 500;
+    padding: 10px 0;
+    
+}
+.section-sub-heading{
+    color:burlywood;
+    text-align: center;
+    font-size: 15px;
+    margin-top: 25px;
+    font-style: italic;
+}
+.about-text{
+    margin-top: 25px;
+    font-size: 15px;
+}
+#content .member-list{
+    margin-top: 48px;
+    
+}
+#content .member-item{
+    float: left;
+    width: 33.3333%;
+    text-align: center;
+    
+
+}
+#content .member-name{
+    font-size: 15px;
+    text-align: center;
+}
+#content .member-img{
+    margin-top: 15px;
+    border-radius: 5px;
+    width: 154px;
+}
+
+.tour-section{
+    background: black;
+    color: aliceblue;
+    height: 600px;
+    
+}
+.tickets-list li { 
+background-color: aliceblue;
+color: black;
+padding: 10px;
+list-style-type: none;
+}
+.tickets-list .sold-out{ 
+    background-color: crimson;
+    color: aliceblue;
+    margin-left: 30px;
+}
+.tickets-list .quantity{
+    float: right;
+    width: 24px;
+    height: 24px;
+    background-color: #000000;
+    color: aliceblue;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 24px;
+
+}
+.place-list{
+    margin-top: 48px;
+}
+.place-item{
+    float: left;
+    width: 20%;
+    padding: 0 8px;
+    
+}
+.place-img{
+    width: 100%;
+}
+.member-img{
+    argin-top: 15px;
+    border-radius: 5px;
+    width: 154px;
+    text-align: center;
+}
+.member-img{
+    margin-top: 15px;
+    border-radius: 5px;
+    width: 154px;
+    text-align: center;
+}
